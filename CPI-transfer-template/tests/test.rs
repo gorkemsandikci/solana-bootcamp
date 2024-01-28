@@ -148,7 +148,7 @@ async fn success() {
     // See that the transaction processes successfully
     banks_client.process_transaction(transaction).await.unwrap();
 
-    // Check that the destination account now has `amount` tokens
+    // Check that the destination account now has `amount` token
     let account = banks_client
         .get_account(destination.pubkey())
         .await
