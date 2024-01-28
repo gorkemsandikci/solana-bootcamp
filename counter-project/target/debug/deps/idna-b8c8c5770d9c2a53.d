@@ -1,0 +1,10 @@
+/Users/gorkemsandikci/PhpstormProjects/solana-bootcamp/counter-project/target/debug/deps/libidna-b8c8c5770d9c2a53.rmeta: /Users/gorkemsandikci/.cargo/registry/src/index.crates.io-6f17d22bba15001f/idna-0.5.0/src/lib.rs /Users/gorkemsandikci/.cargo/registry/src/index.crates.io-6f17d22bba15001f/idna-0.5.0/src/punycode.rs /Users/gorkemsandikci/.cargo/registry/src/index.crates.io-6f17d22bba15001f/idna-0.5.0/src/uts46.rs /Users/gorkemsandikci/.cargo/registry/src/index.crates.io-6f17d22bba15001f/idna-0.5.0/src/uts46_mapping_table.rs
+
+/Users/gorkemsandikci/PhpstormProjects/solana-bootcamp/counter-project/target/debug/deps/libidna-b8c8c5770d9c2a53.rlib: /Users/gorkemsandikci/.cargo/registry/src/index.crates.io-6f17d22bba15001f/idna-0.5.0/src/lib.rs /Users/gorkemsandikci/.cargo/registry/src/index.crates.io-6f17d22bba15001f/idna-0.5.0/src/punycode.rs /Users/gorkemsandikci/.cargo/registry/src/index.crates.io-6f17d22bba15001f/idna-0.5.0/src/uts46.rs /Users/gorkemsandikci/.cargo/registry/src/index.crates.io-6f17d22bba15001f/idna-0.5.0/src/uts46_mapping_table.rs
+
+/Users/gorkemsandikci/PhpstormProjects/solana-bootcamp/counter-project/target/debug/deps/idna-b8c8c5770d9c2a53.d: /Users/gorkemsandikci/.cargo/registry/src/index.crates.io-6f17d22bba15001f/idna-0.5.0/src/lib.rs /Users/gorkemsandikci/.cargo/registry/src/index.crates.io-6f17d22bba15001f/idna-0.5.0/src/punycode.rs /Users/gorkemsandikci/.cargo/registry/src/index.crates.io-6f17d22bba15001f/idna-0.5.0/src/uts46.rs /Users/gorkemsandikci/.cargo/registry/src/index.crates.io-6f17d22bba15001f/idna-0.5.0/src/uts46_mapping_table.rs
+
+/Users/gorkemsandikci/.cargo/registry/src/index.crates.io-6f17d22bba15001f/idna-0.5.0/src/lib.rs:
+/Users/gorkemsandikci/.cargo/registry/src/index.crates.io-6f17d22bba15001f/idna-0.5.0/src/punycode.rs:
+/Users/gorkemsandikci/.cargo/registry/src/index.crates.io-6f17d22bba15001f/idna-0.5.0/src/uts46.rs:
+/Users/gorkemsandikci/.cargo/registry/src/index.crates.io-6f17d22bba15001f/idna-0.5.0/src/uts46_mapping_table.rs:
