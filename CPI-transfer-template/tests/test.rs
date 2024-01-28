@@ -14,8 +14,17 @@ use {
     std::str::FromStr,
 };
 
+use std::io;
+
 #[tokio::test]
 async fn success() {
+
+    // Klavyeden bir satır al
+    println!("Enter your Amount:");
+
+    let mut input_amount = String::new();
+    io::stdin().read_line(&mut input).expect("Reading Exception");
+
     // Setup some pubkeys for the accounts
     let program_id = Pubkey::from_str("TransferTokens11111111111111111111111111111").unwrap();
     let source = Keypair::new();
@@ -29,7 +38,7 @@ async fn success() {
         program_id,
         processor!(process_instruction),
     );
-    let amount = 10_000;
+    let amount = input_amount;
     let decimals = 9;
     let rent = Rent::default();
 
