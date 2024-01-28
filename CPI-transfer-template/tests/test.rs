@@ -25,18 +25,16 @@ async fn success() {
 
     // Add the program to the test framework
     let program_test = ProgramTest::new(
-        "CPI_transfer",
+        "spl_example_transfer_tokens",
         program_id,
         processor!(process_instruction),
     );
-
-    // Start the program test
-    let (mut banks_client, payer, recent_blockhash) = program_test.start().await;
-
-
     let amount = 10_000;
     let decimals = 9;
     let rent = Rent::default();
+
+    // Start the program test
+    let (mut banks_client, payer, recent_blockhash) = program_test.start().await;
 
     // Setup the mint, used in `spl_token::instruction::transfer_checked`
     let transaction = Transaction::new_signed_with_payer(
@@ -63,8 +61,6 @@ async fn success() {
     );
     banks_client.process_transaction(transaction).await.unwrap();
 
-    // the token ready
-
     // Setup the source account, owned by the program-derived address
     let transaction = Transaction::new_signed_with_payer(
         &[
@@ -88,8 +84,6 @@ async fn success() {
         recent_blockhash,
     );
     banks_client.process_transaction(transaction).await.unwrap();
-
-
 
     // Setup the destination account, used to receive tokens from the account
     // owned by the program-derived address
